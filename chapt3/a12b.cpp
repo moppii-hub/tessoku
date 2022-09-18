@@ -4,7 +4,7 @@
 using namespace std;
 using ll = long long;
 
-#define loopUpFrom(startNum, loopCount, indexName) for( int indexName=startNum; indexName<=loopCount-startNum; ++indexName )
+#define loopUpFrom(startNum, loopCount, indexName) for( int indexName=startNum; indexName<loopCount+startNum; ++indexName )
 #define loopUp(loopCount, indexName) loopUpFrom(1, loopCount, indexName)
 
 
